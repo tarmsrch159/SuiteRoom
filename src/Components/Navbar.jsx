@@ -27,7 +27,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a
-                href="index.html"
+                href="/"
                 className="navbar-brand d-flex align-items-center px-4 px-lg-5"
             >
                 <h2 className="m-0 text-primary">
@@ -49,6 +49,10 @@ function Navbar() {
                     <Link to='/' className='nav-item nav-link active'>
                         Home
                     </Link>
+
+                    {/* <Link to='/' className={({ isActive }) => isActive ? 'nav-item nav-link ': 'nav-item nav-link active'}>
+                        Home
+                    </Link> */}
                     <div className="nav-item dropdown">
                         <a
                             href="#"
