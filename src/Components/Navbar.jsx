@@ -45,9 +45,10 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html" className="nav-item nav-link active">
+                    
+                    <Link to='/' className='nav-item nav-link active'>
                         Home
-                    </a>
+                    </Link>
                     <div className="nav-item dropdown">
                         <a
                             href="#"
