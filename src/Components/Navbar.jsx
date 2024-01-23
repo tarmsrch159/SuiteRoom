@@ -2,6 +2,28 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavbarCss/style.css'
 function Navbar() {
+
+    const BanquetLink = [
+        { text: 'Grand Ballroom PETRA', url: '/grandBallRoom' },
+        { text: 'Pikol 1, 2', url: '/pikol' },
+        { text: 'Dalan', url: '/dalan' },
+        { text: 'Chada Restaurant', url: '/chada' },
+    ]
+
+    const PraanSpa = [
+        { text: 'Onsen', url: '/Onsen' },
+        { text: 'นวดไทย', url: '/massageThai' },
+        { text: 'Jacuzzi', url: '/JacuzziSPA' },
+        { text: 'นวดเท้า', url: '/MassageFoot' },
+        { text: 'นวดออย', url: '/MassageOil' },
+    ]
+
+    const RUEN = [
+        { text: 'เรือนไทย', url: '/ThaiHouse' },
+        { text: 'ห้องอาหาร', url: '/FoodRoom' },
+    ]
+
+    console.log(BanquetLink)
     return (
         <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a
@@ -54,7 +76,7 @@ function Navbar() {
                             </Link>
 
                             <Link to="/jacuzzi" className='dropdown-item'>
-                            Divalux Jacuzzi Suites
+                                Divalux Jacuzzi Suites
 
                             </Link>
 
@@ -70,19 +92,10 @@ function Navbar() {
                             Banquet
                         </a>
                         <div className="dropdown-menu fade-down m-0">
-                            <a href="team.html" className="dropdown-item">
-                                Grand Ballroom PETRA
-                            </a>
-                            <a href="testimonial.html" className="dropdown-item">
-                                Pikol 1, 2
-                            </a>
-                            <a href="404.html" className="dropdown-item">
-                                Dalan
-                            </a>
+                            {BanquetLink.map((link, index) => (
+                                <Link to={link.url} className='dropdown-item'>{link.text}</Link>
+                            ))}
 
-                            <a href="404.html" className="dropdown-item">
-                                Chada Restaurant
-                            </a>
                         </div>
                     </div>
 
@@ -95,21 +108,10 @@ function Navbar() {
                             Praan SPA
                         </a>
                         <div className="dropdown-menu fade-down m-0">
-                            <a href="team.html" className="dropdown-item">
-                                Onsen
-                            </a>
-                            <a href="testimonial.html" className="dropdown-item">
-                                นวดไทย
-                            </a>
-                            <a href="404.html" className="dropdown-item">
-                                Jacuzzi
-                            </a>
-                            <a href="404.html" className="dropdown-item">
-                                นวดเท้า
-                            </a>
-                            <a href="404.html" className="dropdown-item">
-                                นวดออย
-                            </a>
+                            {PraanSpa.map((link) => (
+                                <Link to={link.url} className='dropdown-item'>{link.text}</Link>
+                            ))}
+
                         </div>
                     </div>
 
@@ -122,12 +124,9 @@ function Navbar() {
                             Ruen karaked
                         </a>
                         <div className="dropdown-menu fade-down m-0">
-                            <a href="team.html" className="dropdown-item">
-                                เรือนไทย
-                            </a>
-                            <a href="testimonial.html" className="dropdown-item">
-                                ห้องอาหาร
-                            </a>
+                            {RUEN.map((link) => (
+                                <Link to={link.url} className='dropdown-item'>{link.text}</Link>
+                            ))}
                         </div>
                     </div>
 
