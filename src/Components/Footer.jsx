@@ -1,16 +1,21 @@
 import React from 'react'
 
 function Footer() {
+
+   
+
     return (
         <div
-            className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            // className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            className="container-fluid text-light footer pt-5 mt-5 wow fadeIn"
+            style={{ backgroundColor: '#b08d6d' }}
             data-wow-delay="0.1s"
         >
             <div className="container py-5">
                 <div className="row g-5">
 
                     {/* Quick way */}
-                    <div className="col-lg-6 col-md-6">
+                    {/* <div className="col-lg-6 col-md-6">
                         <h4 className="text-white mb-3">Quick Link</h4>
                         <a className="btn btn-link" href="">
                         Room&Suite
@@ -24,11 +29,11 @@ function Footer() {
                         <a className="btn btn-link" href="">
                         Ruen karaked
                         </a>
-                    </div>
+                    </div> */}
 
                     {/* Contact */}
-                    <div className="col-lg-6 col-md-6">
-                        <h4 className="text-white mb-3">ติดต่อ</h4>
+                    <div className="col-lg-6 col-md-6" style={{ color: 'white' }}>
+                        <h4 className="mb-3 text-white" >ติดต่อ</h4>
                         {/* <p className="mb-2">
                             <i className="fa fa-map-marker-alt me-3" />
                             123 Street, New York, USA
