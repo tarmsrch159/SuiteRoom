@@ -1,0 +1,12 @@
+.custom-navbar-nav .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* Show the dropdown when hovering over the parent item with a delay */
+.custom-navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.2s; /* Set the desired delay duration */
+}
