@@ -4,7 +4,7 @@ function MassageOil() {
   return (
     <div className="container-xxl py-5">
             <div className="container">
-                <h1>นวดออย</h1>
+                <h1>Oil Massage</h1>
                 <h6>Details: <span>** ใส่รายละเอียด **</span></h6>
 
 

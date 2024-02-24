@@ -4,7 +4,7 @@ function MassageFoot() {
   return (
     <div className="container-xxl py-5">
             <div className="container">
-                <h1>นวดเท้า</h1>
+                <h1>Foot Massage</h1>
                 <h6>Details: <span>** ใส่รายละเอียด **</span></h6>
 
 
