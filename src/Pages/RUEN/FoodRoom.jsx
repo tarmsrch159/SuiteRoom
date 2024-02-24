@@ -1,15 +1,23 @@
 import React from 'react'
 
 function FoodRoom() {
+
+    const details = `The Karaked Cafe is surrounded by numerous
+    photogenic spots featuring nature and flower gardens. Take a stroll to the pier and go on a romantic kayaking
+    trip, taking in the breath-taking views of nature`
+
+
     return (
         <div className="container-xxl py-5">
             <div className="container">
                 <h1>ห้องอาหาร</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <hr />
+                <h5>Room Size: 300 SQM View: garden</h5>
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}
-                <div className="row g-4">
+                <div className="row g-4 mt-3">
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item text-center pt-3">
                             <div className="p-4">

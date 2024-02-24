@@ -5,7 +5,7 @@ function JacuzziSPA() {
     <div className="container-xxl py-5">
             <div className="container">
                 <h1>Jacuzzi</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <h6>Details: <span>** ใส่รายละเอียด **</span></h6>
 
 
                 {/* แถว 1 */}

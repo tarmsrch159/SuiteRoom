@@ -12,10 +12,10 @@ function Navbar() {
 
     const PraanSpa = [
         { text: 'Onsen', url: '/Onsen' },
-        { text: 'นวดไทย', url: '/massageThai' },
+        { text: 'Thai Massage', url: '/massageThai' },
         { text: 'Jacuzzi', url: '/JacuzziSPA' },
-        { text: 'นวดเท้า', url: '/MassageFoot' },
-        { text: 'นวดออย', url: '/MassageOil' },
+        { text: 'Foot Massage', url: '/MassageFoot' },
+        { text: 'Oil Massage', url: '/MassageOil' },
     ]
 
     const RUEN = [
@@ -31,7 +31,12 @@ function Navbar() {
                 className="navbar-brand d-flex align-items-center px-4 px-lg-5"
             >
                 <h2 className="m-0 text-white">
-                    <i className="fa fa-book me-3" />
+                    {/* <i className="fa fa-book me-3" /> */}
+                    <img src="assets/img/resort/โลโก้/423619383_701543778796612_8376902751426390523_n.png" 
+                    alt="" 
+                    style={{ objectFit: "cover" }}
+                    width={180}
+                    />
                     Devalux Resort & SPA
                 </h2>
             </a>
@@ -45,7 +50,7 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
-                    
+
                     <Link to='/' className='nav-item nav-link text-white'>
                         Home
                     </Link>
@@ -121,18 +126,17 @@ function Navbar() {
                     </div>
 
                     <div className="nav-item dropdown">
-                        <a
-                            href="#"
-                            className="nav-link dropdown-toggle text-white"
-                            data-bs-toggle="dropdown"
+                        <Link
+                            to='/Ruen'
+                            className="nav-link text-white"
                         >
                             Ruen karaked
-                        </a>
-                        <div className="dropdown-menu fade-down m-0">
+                        </Link>
+                        {/* <div className="dropdown-menu fade-down m-0">
                             {RUEN.map((link) => (
                                 <Link to={link.url} className='dropdown-item'>{link.text}</Link>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>

@@ -1,11 +1,12 @@
 import React from 'react'
 
 function Onsen() {
+    
   return (
     <div className="container-xxl py-5">
             <div className="container">
                 <h1>Onsen</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <h6>Details: <span>** ใส่รายละเอียด **</span></h6>
 
 
                 {/* แถว 1 */}
@@ -18,7 +19,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF9997.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -41,7 +42,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF0017.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -63,7 +64,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF0024.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -85,7 +86,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF0025.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -114,7 +115,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF9993.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -137,7 +138,7 @@ function Onsen() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Onsen/DSCF9997.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />

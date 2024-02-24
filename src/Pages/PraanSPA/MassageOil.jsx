@@ -5,7 +5,7 @@ function MassageOil() {
     <div className="container-xxl py-5">
             <div className="container">
                 <h1>นวดออย</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <h6>Details: <span>** ใส่รายละเอียด **</span></h6>
 
 
                 {/* แถว 1 */}
@@ -18,7 +18,7 @@ function MassageOil() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/นวดออย/4.png"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -41,7 +41,7 @@ function MassageOil() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/นวดออย/3.png"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -63,7 +63,7 @@ function MassageOil() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/นวดออย/2.png"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -85,7 +85,7 @@ function MassageOil() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/นวดออย/1.png"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />

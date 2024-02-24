@@ -33,7 +33,7 @@ function Footer() {
 
                     {/* Contact */}
                     <div className="col-lg-6 col-md-6" style={{ color: 'white' }}>
-                        <h4 className="mb-3 text-white" >ติดต่อ</h4>
+                        <h4 className="mb-3 text-white" >Contacts</h4>
                         {/* <p className="mb-2">
                             <i className="fa fa-map-marker-alt me-3" />
                             123 Street, New York, USA

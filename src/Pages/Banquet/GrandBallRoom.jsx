@@ -1,15 +1,25 @@
 import React from 'react'
 
 function GrandBallRoom() {
-  return (
-    <div className="container-xxl py-5">
+
+    const details = `The prestigious Petra Ballroom is an ideal weeding venue. With 
+    large room filled with emotions, luxury and passion, 
+    you can experience the feeling of a meaningful party or 
+    celebration. Launnch a wide range of events that can accommodate more 
+    than 200 people. With a giant LCD digital screens and two large screens, 
+    this ballroom enchances the grandeur and dimension of your opening ceremony. Together, with your 
+    input and our creativity, we can design an atmosphere that is befitting of class and business.`
+    return (
+        <div className="container-xxl py-5">
             <div className="container">
                 <h1>Grand Ballroom PETRA</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <hr />
+                <h5>Room Size: 32 SQM View: City</h5>
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}
-                <div className="row g-4">
+                <div className="row g-4 mt-3">
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item text-center pt-3">
                             <div className="p-4">
@@ -18,7 +28,7 @@ function GrandBallRoom() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Grand Ballroom PETRA/DSC03668.JPG"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -41,7 +51,7 @@ function GrandBallRoom() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Grand Ballroom PETRA/DSC03663 (2).JPG"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -202,7 +212,7 @@ function GrandBallRoom() {
 
             </div>
         </div>
-  )
+    )
 }
 
 export default GrandBallRoom

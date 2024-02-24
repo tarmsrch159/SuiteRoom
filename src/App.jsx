@@ -23,7 +23,7 @@ import MassageThai from './Pages/PraanSPA/MassageThai'
 import JacuzziSPA from './Pages/PraanSPA/JacuzziSPA'
 import MassageFoot from './Pages/PraanSPA/MassageFoot'
 import MassageOil from './Pages/PraanSPA/MassageOil'
-import ThaiHouse from './Pages/RUEN/ThaiHouse'
+import Ruen from './Pages/RUEN/Ruen'
 import FoodRoom from './Pages/RUEN/FoodRoom'
 
 
@@ -49,7 +49,7 @@ function App() {
         <Route path="/JacuzziSPA" element={<JacuzziSPA />} />
         <Route path="/MassageFoot" element={<MassageFoot />} />
         <Route path="/MassageOil" element={<MassageOil />} />
-        <Route path="/ThaiHouse" element={<ThaiHouse />} />
+        <Route path="/Ruen" element={<Ruen />} />
         <Route path="/FoodRoom" element={<FoodRoom />} />
       </Routes>
       < Footer />

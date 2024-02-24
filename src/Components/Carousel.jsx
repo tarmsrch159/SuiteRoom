@@ -38,7 +38,7 @@ function Carousel() {
                         <div className="position-relative h-100">
                             <img
                                 className="img-fluid position-absolute w-100 h-100"
-                                src="../../assets/img/image700-700.png"
+                                src="assets/img/resort/โลโก้/DJI_0051.JPG"
                                 alt=""
                                 style={{ objectFit: "cover" }}
                             />
@@ -46,14 +46,14 @@ function Carousel() {
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                         <h6 className="section-title bg-white text-start text-primary pe-3">
-                            หน้าหลัก
+                            Home
                         </h6>
                         <h1 className="mb-4">Welcome to  Devalux Resort & SPA</h1>
 
 
                         {/* คำอธิบาย */}
                         <p className="mb-4">
-                            คำอธิบาย :
+                            Description :
                             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                             diam amet diam et eos. Clita erat ipsum et lorem et sit.
                         </p>
@@ -61,7 +61,7 @@ function Carousel() {
 
                          {/* คำอธิบาย */}
                         <p className="mb-4">
-                        คำอธิบาย :
+                        Description :
                             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                             diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
                             lorem sit clita duo justo magna dolore erat amet

@@ -1,15 +1,29 @@
 import React from 'react'
 
 function Jacuzzi() {
+
+    const details = `The Divalux Jacuzzi Suite is an enchanting sanctury in
+    the heart of the bustling city. Experience brilliance with
+    modern furnishings,aspacious layout,and an
+    expansive view over the entire city from the top floor
+    serve to create an ectraordinary experience.
+    The highlight of the Divalux Suite is the magnificent
+    outdoor Jacuzzi tub, where you can soak up the sun,
+    enjoy music, and de-stress in the lap of nature. This
+    luxurious heaven is ideal for intimate gatherings and
+    long stay.`
+
   return (
     <div className="container-xxl py-5">
             <div className="container">
                 <h1>Divalux Jacuzzi Suites</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <hr />
+                <h5>Room Size: 68 SQM View: Garden</h5>
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}
-                <div className="row g-4">
+                <div className="row g-4 mt-3">
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item text-center pt-3">
                             <div className="p-4">
@@ -18,7 +32,7 @@ function Jacuzzi() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Jacuzzi/S__2613254_0.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -41,7 +55,7 @@ function Jacuzzi() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Jacuzzi/S__2613256_0.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -63,7 +77,7 @@ function Jacuzzi() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Jacuzzi/S__2613257_0.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />
@@ -85,7 +99,7 @@ function Jacuzzi() {
                                 {/* ใส่รูป */}
                                 <img
                                     className="img-fluid w-100 h-100 mb-4"
-                                    src="../../assets/img/image700-700.png"
+                                    src="assets/img/resort/Jacuzzi/S__2613258_0.jpg"
                                     alt=""
                                     style={{ objectFit: "cover" }}
                                 />

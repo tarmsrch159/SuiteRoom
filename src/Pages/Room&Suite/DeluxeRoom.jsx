@@ -1,15 +1,25 @@
 import React from 'react'
 
 function DeluxeRoom() {
+
+    const details = `With a rus tic charm and natural hues , the Deluxe
+    Rooms a t the Di v a lux Resort & Spa prov ides the
+    perfect contrast to Bangkok’s bustling charm. Enjoy
+    your favourite book at the window seats, or rejuvenate
+    after a long day in the walk-in shower – the Deluxe
+    Room is the perfect setting to switch off.`
+
     return (
         <div className="container-xxl py-5">
             <div className="container">
                 <h1>DeluxeRoom</h1>
-                <h6>รายละเอียด: <span>** ใส่รายละเอียด **</span></h6>
+                <hr />
+                <h5>Room Size: 32 SQM View: City</h5>
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}
-                <div className="row g-4">
+                <div className="row g-4 mt-3">
                     <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div className="service-item text-center pt-3">
                             <div className="p-4">
