@@ -8,7 +8,7 @@ function Chada() {
                 <h1>CHADA RESTAURANT</h1>
                 <hr />
                 <h5>Room Size: 32 SQM View: City</h5>
-                <h6>Details: <span>{details}</span></h6>
+                {/* <h6>Details: <span>{details}</span></h6> */}
 
 
                 {/* แถว 1 */}
@@ -28,11 +28,12 @@ function Chada() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -51,11 +52,12 @@ function Chada() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -72,11 +74,12 @@ function Chada() {
                                 />
                                 {/* ใส่รูป */}
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+{/*                                 
+                              <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -95,11 +98,12 @@ function Chada() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -124,7 +128,8 @@ function Chada() {
                                 ใส่รูป
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
@@ -147,7 +152,8 @@ function Chada() {
                                 ใส่รูป
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
@@ -168,7 +174,8 @@ function Chada() {
                                 />
                                 ใส่รูป
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
@@ -191,7 +198,8 @@ function Chada() {
                                 ใส่รูป
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam

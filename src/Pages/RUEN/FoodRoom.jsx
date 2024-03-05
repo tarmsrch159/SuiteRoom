@@ -13,7 +13,7 @@ function FoodRoom() {
                 <h1>ห้องอาหาร</h1>
                 <hr />
                 <h5>Room Size: 300 SQM View: garden</h5>
-                <h6>Details: <span>{details}</span></h6>
+                {/* <h6>Details: <span>{details}</span></h6> */}
 
 
                 {/* แถว 1 */}
@@ -33,11 +33,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -56,11 +57,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -77,11 +79,12 @@ function FoodRoom() {
                                 />
                                 {/* ใส่รูป */}
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -100,11 +103,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -129,11 +133,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -152,11 +157,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -173,11 +179,12 @@ function FoodRoom() {
                                 />
                                 {/* ใส่รูป */}
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -196,11 +203,12 @@ function FoodRoom() {
                                 {/* ใส่รูป */}
 
 
-                                <h5 className="mb-3">ชื่อรูป</h5>
+                                
+                              {/* <h5 className="mb-3">ชื่อรูป</h5>
                                 <p>
                                     Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet
                                     diam
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
