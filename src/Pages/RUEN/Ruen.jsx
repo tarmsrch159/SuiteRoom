@@ -11,7 +11,7 @@ function Ruen() {
                 <h1>Ruen</h1>
                 <hr />
                 <h5>Room Size: 300 SQM View: garden</h5>
-                {/* <h6>Details: <span>{details}</span></h6> */}
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}

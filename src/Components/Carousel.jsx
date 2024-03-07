@@ -52,15 +52,15 @@ function Carousel() {
 
 
                         {/* คำอธิบาย */}
-                        <p className="mb-4">
+                        {/* <p className="mb-4">
                             Description :
                             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                             diam amet diam et eos. Clita erat ipsum et lorem et sit.
-                        </p>
+                        </p> */}
 
 
-                         {/* คำอธิบาย */}
-                        <p className="mb-4">
+                        {/* คำอธิบาย */}
+                        {/* <p className="mb-4">
                         Description :
                             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                             diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
@@ -103,10 +103,10 @@ function Carousel() {
                                     International Certificate
                                 </p>
                             </div>
-                        </div>
-                        <a className="btn btn-primary py-3 px-5 mt-2" href="">
+                        </div> */}
+                        {/* <a className="btn btn-primary py-3 px-5 mt-2" href="">
                             Read More
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ function Jacuzzi() {
                 <h1>Divalux Jacuzzi Suites</h1>
                 <hr />
                 <h5>Room Size: 68 SQM View: Garden</h5>
-                {/* <h6>Details: <span>{details}</span></h6> */}
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}

@@ -18,7 +18,7 @@ function PremierSuiteRoom() {
                 <h1>Premier Suite Room</h1>
                 <hr />
                 <h5>Room Size: 68 SQM View: Garden</h5>
-                {/* <h6>Details: <span>{details}</span></h6> */}
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}

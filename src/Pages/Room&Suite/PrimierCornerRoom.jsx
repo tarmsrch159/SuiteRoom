@@ -17,7 +17,7 @@ function PrimierCornerRoom() {
                 <h1>Premier Corner Room</h1>
                 <hr />
                 <h5>Room Size: 37 SQM View: Pool</h5>
-                {/* <h6>Details: <span>{details}</span></h6> */}
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}

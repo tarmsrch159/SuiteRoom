@@ -8,7 +8,7 @@ function Chada() {
                 <h1>CHADA RESTAURANT</h1>
                 <hr />
                 <h5>Room Size: 32 SQM View: City</h5>
-                {/* <h6>Details: <span>{details}</span></h6> */}
+                <h6>Details: <span>{details}</span></h6>
 
 
                 {/* แถว 1 */}
